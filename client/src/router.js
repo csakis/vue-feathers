@@ -1,10 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import SignUp from "./views/Signup.vue";
-import Login from "./views/Login.vue";
-import Boards from "./views/Boards.vue";
-import store from "./store";
+import Home from "@/views/Home.vue";
+import SignUp from "@/views/Signup.vue";
+import Login from "@/views/Login.vue";
+import Boards from "@/views/Boards.vue";
+import ViewPDF from "@/views/ViewPDF.vue";
 
 Vue.use(Router);
 
@@ -34,6 +34,12 @@ export default new Router({
       path: "/boards",
       name: "boards",
       component: Boards,
+      meta: { isAuthRequired: true }
+    },
+    {
+      path: "/viewpdf",
+      name: "viewpdf",
+      component: ViewPDF,
       meta: { isAuthRequired: true }
     }
   ]

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar app>
-      <v-toolbar-title>Trello</v-toolbar-title>
+      <v-toolbar-title>PDFs</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items v-if="!user">
         <v-btn flat :to="{name: 'signup'}">Sign Up</v-btn>
