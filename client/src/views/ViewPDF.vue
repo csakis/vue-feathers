@@ -7,7 +7,7 @@
                 <v-toolbar-title>Title</v-toolbar-title>
                 </v-toolbar>
                 <v-card-text>
-                  <pdf src="../pdfs/Csaba_Kiss_CV.pdf"></pdf>
+                  <pdf src="../pdfs/AD-1077.pdf"></pdf>
                 </v-card-text>
               </v-card>
             </v-flex>
